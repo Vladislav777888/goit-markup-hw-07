@@ -1,0 +1,41 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--secondary-background-color);
+
+  &__logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--text-color-white);
+  }
+
+  &__info {
+    width: 231px;
+  }
+
+  &__socials {
+    margin-left: 70px;
+    padding-top: 12px;
+  }
+
+  &__subscription {
+    margin-left: 93px;
+    padding-top: 12px;
+  }
+}
+
+.footer-menu {
+  display: flex;
+}

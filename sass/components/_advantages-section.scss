@@ -1,0 +1,43 @@
+.advanteges {
+  padding-bottom: 47px;
+
+  &__title {
+    @include visually-hidden;
+  }
+}
+
+.advanteges-list {
+  display: flex;
+
+  &__item + &__item {
+    margin-left: 30px;
+  }
+
+  &__icon {
+    @extend %flex-centered;
+
+    margin-bottom: 30px;
+
+    width: 270px;
+    height: 120px;
+    background-color: var(--third-background-color);
+    border-radius: 4px;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+}

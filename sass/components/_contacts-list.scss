@@ -1,0 +1,21 @@
+.contacts-list {
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+  &__link {
+    display: block;
+
+    color: var(--text-color-contacts-footer);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &--white {
+      color: var(--text-color-white);
+    }
+  }
+}
